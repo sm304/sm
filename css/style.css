@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Global Css */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+a,a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Global css end here */
+
+/* header section css start  */
+.header-section{
+    width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+}
+.logo{
+    padding: 15px 0px;
+}
+.nav{
+    padding: 24px 0px;
+    float: right;
+
+}
+.nav ul li{
+   
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d3950;
+}
+.nav ul li a{
+    transition: 1s;
+}
+.nav ul li a:hover{
+    color: #f6f9f9;
+    padding: 10px;
+    background: #2d3950;
+}
+/* Header Section css End Here  */
+/* Banner section css start  */
+.banner-section{
+    width: 100%;
+    float: left;
+    background: url('../img/Banner.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 70px 0px 40px;
+
+}
+.banner-inner{
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    text-align: center;
+}
+.banner-inner h1{
+    font-size: 80px;
+    font-weight: 900px;
+    color: white;
+    text-transform: uppercase;
+
+}
+.divider{
+    
+
+}
+.banner-inner p{
+    font-size: 50px;
+    color: #f6f9f9;
+    margin: 15px 0px;
+    font-weight: 400px;
+
+
+}
+.banner-inner .btn-info{
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: white;
+    transition: 1s;
+
+}
+.icon{
+    margin-top: 100px;
+}
+.banner-inner .btn-info:hover{
+    border: 1px solid #15a4fa;
+    color: white;
+    background: #15a4fa;
+}
+
+
